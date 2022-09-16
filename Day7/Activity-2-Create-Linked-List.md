@@ -182,12 +182,12 @@ If you are stuck, you can check out [possible solutions here](https://github.com
 
 If you want a further challenge, try making your linked list even more functional by adding the following functions to your `LinkedList` class:
 
-- `add_item()`
-  - Accepts a value. Creates a node with that value, and adds the node to the end of the linked list.
-- `add_item_after()`
-  - Accepts two values. Creates a node from the first value. Traverses the linked list to find the second value, and places the new node directly after the node containing the second value. If a node containing the second value is not already in the list, `raises` a `ValueError`.
-- `remove_item()`
-  - Accepts a value. Traverses the linked list to find the first node containing that value, and removes the value from the linked list. Care should be taken not to lose the portion of the list that the removed node points to. If the value is not in the list, `raises` a `ValueError`.
+1. `add_item()`
+   - Accepts a value. Creates a node with that value, and adds the node to the end of the linked list.
+2. `add_item_after()`
+   - Accepts two values. Creates a node from the first value. Traverses the linked list to find the second value, and places the new node directly after the node containing the second value. If a node containing the second value is not already in the list, `raises` a `ValueError`.
+3. `remove_item()`
+   - Accepts a value. Traverses the linked list to find the first node containing that value, and removes the value from the linked list. Care should be taken not to lose the portion of the list that the removed node points to. If the value is not in the list, `raises` a `ValueError`.
 
 ## Solution
 
