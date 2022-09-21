@@ -10,9 +10,9 @@ Before we start, let's review what a linked list is.
 
 ### What is a linked list?
 
-1. Data structure that can map keys to values.
-1. Data structure where only the earliest added item can be accessed.
-1. Data structure where each element can be randomly accessed using its index number.
+1. ~~Data structure that can map keys to values.~~
+1. ~~Data structure where only the earliest added item can be accessed.~~
+1. ~~Data structure where each element can be randomly accessed using its index number.~~
 1. Data structure that contains nodes that contain a data field and reference link.
 
 ## Implement a Linked List
