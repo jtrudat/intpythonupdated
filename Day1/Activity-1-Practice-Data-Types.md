@@ -19,7 +19,7 @@ For the first section, follow the directions in the Replit and refer to the slid
 
 Tips:
 
-- Remember, in Python you don't need keywords like let or var to create a variable.
+- Remember, in Python you don't need keywords like `let` or `var` to create a variable.
 - When writing a function with Python, keep in mind the syntax and indentation requirements.
 - Keep in mind the snake_case variable naming convention in Python.
 
