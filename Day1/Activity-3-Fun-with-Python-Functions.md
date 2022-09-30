@@ -19,9 +19,9 @@ Remember: to check whether your function behaves correctly, you need to call the
 
 ```python
 def say_hello():
-    #your code in here
+    # your code in here
 
-say_hello() #this calls the function
+say_hello() # this calls the function
 ```
 
 ## Solution
