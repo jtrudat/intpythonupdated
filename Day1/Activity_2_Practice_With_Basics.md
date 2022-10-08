@@ -4,7 +4,7 @@ This activity continues from where we left off-the Replit will set the stage to 
 
 ## Setup
 
-Open [Activity-2-Practice-With-Basics.py](Activity-2-Practice-With-Basics.py) to gain access to the starter code.
+Open [Activity-2-Practice-With-Basics.py](Activity_2_Practice_With_Basics.py) to gain access to the starter code.
 
 ## Directions
 

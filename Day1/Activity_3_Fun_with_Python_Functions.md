@@ -1,7 +1,7 @@
 
 # Activity: Fun with Python Functions
 
-In this activity we are going to practice writing functions in Python. Use the [Activity-3-Fun-with-Python-Functions.py](Activity-3-Fun-with-Python-Functions.py) to get the starter code.
+In this activity we are going to practice writing functions in Python. Use the [Activity-3-Fun-with-Python-Functions.py](Activity_3_Fun_with_Python_Functions.py) to get the starter code.
 
 ## Python Function Fun Part 1 Prompts
 

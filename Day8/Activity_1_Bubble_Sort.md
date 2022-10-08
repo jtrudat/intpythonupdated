@@ -55,20 +55,49 @@ To see what the bubble sort algorithm is doing, use the print() function to show
 
 ```python
 def bubble_sort(list):
-
     for i in range(len(list)):
-        print(f"iteration ")
+        print(f"iteration {i}")
         for j in range(len(list) - 1):
             print(f"comparing {list[j], list[j+1]}")
             if list[j] > list[j+1]:
                 list[j], list[j+1] = list[j+1], list[j]
 
-return list
+    return list
 ```
 
 We should see something like this in the terminal:
 
-![Output in terminal after running bubble sort algorithm](images/lessons-ppp-8-sorting-algorithms-Activity.3.png)
+### Output in terminal after running bubble sort algorithm
+
+```text
+Unsorted list: [1, 5, 2, 6, 7]
+iteration 0
+comparing (1, 5)
+comparing (5, 2)
+comparing (5, 6)
+comparing (6, 7)
+iteration 1
+comparing (1, 2)
+comparing (2, 5)
+comparing (5, 6)
+comparing (6, 7)
+iteration 2
+comparing (1, 2)
+comparing (2, 5)
+comparing (5, 6)
+comparing (6, 7)
+iteration 3
+comparing (1, 2)
+comparing (2, 5)
+comparing (5, 6)
+comparing (6, 7)
+iteration 4
+comparing (1, 2)
+comparing (2, 5)
+comparing (5, 6)
+comparing (6, 7)
+Sorted list:   [1, 2, 5, 6, 7]
+```
 
 In the sample list shown, only the 5 and 2 had to be swapped in order for the list to be sorted. However, the algorithm we wrote will compare every item in the list against each other regardless of whether the list is sorted. We see this in the iterations where the list is already sorted, such as iterations 2, 3, or 4. We discussed how the bubble sort algorithm is inefficient, but we can make an improvement to our algorithm. What could we improve?
 
@@ -87,7 +116,7 @@ def bubble_sort(list):
 
 for i in range(len(list)):
         swapped = False
-        print(f"iteration ")
+        print(f"iteration {i}")
         for j in range(len(list) - 1):
             print(f"comparing {list[j], list[j+1]}")
             if list[j] > list[j+1]:
@@ -102,7 +131,22 @@ for i in range(len(list)):
 
 If we run our function, we should see something like this in the terminal:
 
-![Output in the terminal after adding optimization to the bubble sort algorithm and running the algorithm](images/lessons-ppp-8-sorting-algorithms-Activity.1.png)
+### Output in the terminal after adding optimization to the bubble sort algorithm and running the algorithm
+
+```text
+Unsorted list: [1, 5, 2, 6, 7]
+iteration 0
+comparing (1, 5)
+comparing (5, 2)
+comparing (5, 6)
+comparing (6, 7)
+iteration 1
+comparing (1, 2)
+comparing (2, 5)
+comparing (5, 6)
+comparing (6, 7)
+Sorted list:   [1, 2, 5, 6, 7]
+```
 
 We can see that the additional iterations through the sorted list are not there due to the optimization we added. Now that we have seen how this works, we can remove or comment out the print() functions. To review, answer the following question:
 
