@@ -85,4 +85,4 @@ Tips:
 
 ## Solution
 
-If you get stuck, or if you would like to check your answers, feel free to reference the [solution guide](https://replit.com/@SD-Team/1011-Solution#main.py).
+If you get stuck, or if you would like to check your answers, feel free to reference the [solution guide](Activity_1_Practice_Data_Types_Solution.py).

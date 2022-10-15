@@ -55,4 +55,4 @@ For the bonus, look into [Python Operators](https://www.w3schools.com/python/pyt
 
 ## Solution
 
-If you get stuck or want to check your answers, take a look at the [solution guide](https://replit.com/@SD-Team/1012-solution#main.py).
+If you get stuck or want to check your answers, take a look at the [solution guide](Activity_2_Practice_With_Basics_Solution.py).

@@ -26,4 +26,4 @@ say_hello() # this calls the function
 
 ## Solution
 
-In case you get stuck or want to check your answers, feel free to refer to the [solution guide](https://replit.com/@SD-Team/1013-solution#main.py).
+In case you get stuck or want to check your answers, feel free to refer to the [solution guide](Activity_3_Fun_with_Python_Functions_Solution.py).
