@@ -20,7 +20,7 @@ If you get any output that looks like "Python 3.x.x" (the x's will be numbers, b
 
 If you do not already have Python installed on your computer, you will get an error in response to this command. In that case, open [Python.org Downloads](https://www.python.org/downloads). This will automatically detect your OS and show you an option to download the latest stable version of Python 3.x.x, which at the time of writing this activity is 3.10.2.
 
-![Python.org Downloads](..\Homework\images\lessons-ppp-1-local-python-setup-Local-Python-Setup.1.png)
+![Python.org Downloads](..\Homework\images\python_downloads.png)
 
 If the website detects your OS incorrectly, click the appropriate link for your OS, then the "Latest Python 3 Release" link. Once the correct OS is selected, click on the yellow "Download Python 3.x.x" button. This will download a .dmg (Mac), .exe (PC), or .tar (Linux) file. Open the file and follow the prompts to install Python 3 on your machine.
 
