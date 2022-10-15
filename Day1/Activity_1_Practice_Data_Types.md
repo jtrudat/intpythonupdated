@@ -4,7 +4,7 @@ In this activity, we will practice with the Python data types and methods we hav
 
 ## Setup
 
-Open [Activity-1-Practice-Data-Types.py](.\Activity_1_Practice_Data_Types.py) for the starter code.
+Open [Activity-1-Practice-Data-Types.py](Activity_1_Practice_Data_Types.py) for the starter code.
 
 ## Directions
 
