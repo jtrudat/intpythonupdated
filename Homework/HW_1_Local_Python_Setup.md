@@ -80,9 +80,9 @@ To create a Python file, follow these steps:
 
 At this point, you should feel confident that you can create a Python file and run it from your terminal. We will be utilizing this skill in the next portion of the activity.
 
-This activity is not designed to trick you or confuse you in any way. Rather, it is designed to help you gain confidence that the skills you've already learned and practiced in Replit can be applied in Python programming on your personal computer as well.
+This activity is not designed to trick you or confuse you in any way. Rather, it is designed to help you gain confidence that the skills you've already learned and practiced can be applied in Python programming on your personal computer as well.
 
-Follow the steps below to create a Python file which you will submit to your instructor.
+Follow the steps below to create a Python file which you will submit to your instructor. Do your work in [HW_1_Local_Python_Setup.py](HW_1_Local_Python_Setup.py) and submit a link to this file from your fork on Canvas.
 
 - In your Python projects folder, create a new file called functions_practice.py.
 - Open your file in VSCode, and create the following functions:
@@ -105,4 +105,4 @@ Make sure to submit your GitHub repository link on canvas.
 
 ## Solution
 
-If you get stuck, or want to check your work, please refer to the [solution repository](https://github.com/HackerUSA-CE/PPP-Local-Python-Setup-and-Function-Practice/tree/main) on GitHub.
+If you get stuck, or want to check your work, please refer to the [solution repository](HW_1_Local_Python_Setup_Solution.py).
