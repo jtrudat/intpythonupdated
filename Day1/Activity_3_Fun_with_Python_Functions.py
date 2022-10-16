@@ -1,6 +1,7 @@
-# Function Definition Practice:
-# Define functions according to the following prompts. Run the Replit to verify correct output.
-
+"""
+Function Definition Practice:
+Define functions according to the following prompts. Run the Replit to verify correct output.
+"""
 
 # 1. Function that accepts no arguments. It's called say_hello and returns nothing, just prints 'hello'.
 

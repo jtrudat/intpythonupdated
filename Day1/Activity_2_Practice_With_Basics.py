@@ -1,6 +1,8 @@
-#Section 1 - sets and tuples:
-#Pre-Question: Take a look at this JavaScript Array:
-# let javaScriptArray = [12, 55, 33, 40, 55, 33, 20, 12]
+"""
+Section 1 - sets and tuples:
+Pre-Question: Take a look at this JavaScript Array:
+let javaScriptArray = [12, 55, 33, 40, 55, 33, 20, 12]
+"""
 
 # How would you remove duplicates from this JavaScript Array? Take a few minutes to consider what steps are necessary to iterate through this array in JavaScript and remove the duplicates values.
 
@@ -23,8 +25,9 @@
 
 
 
-
-#Section 2 - loops:
+"""
+Section 2 - loops:
+"""
 
 # days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 # Question 3: Use a for loop to iterate through the 'days' list above and print the days of the week:
@@ -43,8 +46,9 @@
 
 #starting_value = 5
 
-
-#Section 3 - conditionals: if, elif, else statements
+"""
+Section 3 - conditionals: if, elif, else statements
+"""
 
 # favorite_movie = "insert here"    
 #Question 6a: Uncomment the favorite_movie variable above and change the value to the title of your favorite movie
@@ -63,8 +67,10 @@
 
 
 
+"""
+BONUS - conditional and operators practice:
+"""
 
-#BONUS - conditional and operators practice:
 # a = 5
 # b = 5
 # c = 12

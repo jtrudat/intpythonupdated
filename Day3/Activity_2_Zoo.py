@@ -6,6 +6,12 @@ class Person:
     def get_name(self):
         return self.name
 
+"""
+Add Customer Class Here
+"""
+
+
+
 class Zoo:
     def __init__(self,name="Local Zoo"):
         self.name      = name
@@ -47,6 +53,16 @@ class Animal:
     def eat_food(self):
         print("All creatures need sustenance")
 
+"""
+Add Animal Subclasses Here
+"""
+
+
+
+"""
+Test Code
+"""
+
 nycZoo = Zoo("NYC Zoo")
 
 salmon = Fish("salmon")
@@ -55,10 +71,10 @@ bonobo = Chimp("bonobo")
 
 nycZoo.add_animals([salmon, robin, bonobo])
 
-alice   = Customer("Alice",25)
-bob     = Customer("Bob",20)
-charlie = Customer("Charlie",10)
-dave    = Customer("Dave",30)
+alice   = Customer("Alice",   25)
+bob     = Customer("Bob",     20)
+charlie = Customer("Charlie", 10)
+dave    = Customer("Dave",    30)
 
 for c in [alice, bob, charlie, dave]:
     c.buy_ticket()

@@ -73,7 +73,7 @@ print(course.get_average_ranking())
 # prints a returned value of 88.5
 ```
 
-Couldn't get it done, or code simply isn't working? That's ok! Solution code can be found at [this Replit](https://replit.com/@SD-Team/LearningOOPSolution#main.py).
+Couldn't get it done, or code simply isn't working? That's ok! Solution code can be found at [this Replit](Activity_1_Practice_OOP_Fundamentals_Solution.py).
 
 ## Bonus
 

@@ -1,4 +1,6 @@
-## Section 1 - variables and functions: 
+"""
+Section 1 - variables and functions: 
+"""
 
 # Question 1: Create two variables. One should be a string data type, and the other should be of type int.
 
@@ -10,8 +12,9 @@
 # Invoke the function with a name argument of your choosing:
 
 
-
-## Section 2 - lists:
+"""
+Section 2 - lists:
+"""
 
 # Question 3: Create a list of your favorite movies with  at least 4 elements:
 
@@ -25,8 +28,9 @@
 # Use a print statement to print this ammended list:
 
 
-
-## Section 3 - dictionaries:
+"""
+Section 3 - dictionaries:
+"""
 
 # Question 6: Create a dictionary named 'cellphone' with 2 key:value pairs that are the properties of your cellphone.
 #The keys should be: "color" and "number".
@@ -37,19 +41,25 @@
 
 
 
-
-## Section 4 - strings:
+"""
+Section 4 - strings:
+"""
 
 # Question 8: Create a variable and store a string with multiple words in it:
 
+
+
 # Question 9: Utilize the method that capitalizes the first letter of each word in your string - store this new string in a new variable:
+
+
 
 # Use a print statement to print the new string:
 
 
 
-
-#Bonus:
+"""
+Bonus:
+"""
 
 # Question 10: Uncomment and look into this nested dictionary - try to relate your knowledge of objects and arrays in JavaScript.
 

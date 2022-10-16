@@ -35,21 +35,22 @@ When all of the classes are complete, use the provided code to test your class i
 nycZoo = Zoo("NYC Zoo")
 
 salmon = Fish("salmon")
-robin = Bird("robin")
+robin  = Bird("robin")
 bonobo = Chimp("bonobo")
 
 nycZoo.add_animals([salmon, robin, bonobo])
 
-alice = Customer("Alice",25)
-bob = Customer("Bob",20)
+alice   = Customer("Alice",25)
+bob     = Customer("Bob",20)
 charlie = Customer("Charlie",10)
-dave = Customer("Dave",30)
+dave    = Customer("Dave",30)
 
 for c in [alice, bob, charlie, dave]:
     c.buy_ticket()
     c.enter_zoo(nycZoo)
 
 nycZoo.visit_animals()
+
 for c in [alice, bob, charlie, dave]:
     c.exit_zoo(nycZoo)
 ```
