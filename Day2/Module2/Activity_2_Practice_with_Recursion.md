@@ -16,13 +16,25 @@ Before we begin coding, we want to break down this problem and think about it re
 
 We want to define a function that takes a number, let's say n , prints it, and calls itself again with the value of n-1. The function will keep calling itself until the base case is met. One way to do this is to determine if the number is equal to 0 and when it is, stop the function. Think about what the base case and recursive case would be.
 
-#### Base Case
+#### Base Case 1
 
 What could be a base case for this problem?
 
-- [ ] If n equals 5, print the number
-- [ ] If n is greater than 0, print n and run the function again for the value of n-1.
-- [ ] If n equals 0, stop the function.
+<details>
+    <summary>1. If n equals 5, print the number</summary>
+
+    Incorrect
+</details>
+<details>
+    <summary>2. If n is greater than 0, print n and run the function again for the value of n-1.</summary>
+
+    Incorrect - This could be a way of thinking about the recursive case, but we want the base case.
+</details>
+<details>
+    <summary>3. If n equals 0, stop the function.</summary>
+
+    Correct!
+</details>
 
 Try to code the desired program.
 
@@ -77,13 +89,25 @@ natural_numbers(3)
 - A natural number is a positive whole number.
 - Here is [more information on natural numbers](https://www.mathsisfun.com/definitions/natural-number.html).
 
-#### Base Case
+#### Base Case 2
 
 What could be a base case for this problem?
 
-- [ ] If n is less than 1, return n.
-- [ ] If n is greater than 0, print n.
-- [ ] If the number we are trying to print is greater than n, stop the function.
+<details>
+    <summary>1. If n is less than 1, return n.</summary>
+
+    Incorrect - What would be the condition for when we would want to stop the function? n is greater than 0 in the definition of the problem.
+</details>
+<details>
+    <summary>2. If n is greater than 0, print n.</summary>
+
+    Incorrect - What would be the condition for when we would want to stop the function? n is greater than 0 in the definition of the problem.
+</details>
+<details>
+    <summary>3. If the number we are trying to print is greater than n, stop the function.</summary>
+
+    Correct!
+</details>
 
 ### 3. Write a function that returns the nth elements in the Fibonacci Sequence
 
@@ -92,19 +116,31 @@ What could be a base case for this problem?
 - Here is [more information on the Fibonacci Sequence](https://www.mathsisfun.com/numbers/fibonacci-sequence.html).
 - Hint: Look back at the factorial example as the structure of the algorithm may help you.
 
-#### Base Case
+#### Base Case 3
 
 What could be a base case for this problem?
 
-- [ ] If the numerical input, n, is less than or equal to 1, call the function.
-- [ ] If the numerical input, n, is less than or equal to 1, return the value of n.
-- [ ] If the numerical input, n, is greater than 1, return the sum of the two calls of the function with inputs of n-1 and n-2.
+<details>
+    <summary>1. If the numerical input, n, is less than or equal to 1, call the function.</summary>
+
+    Incorrect
+</details>
+<details>
+    <summary>2. If the numerical input, n, is less than or equal to 1, return the value of n.</summary>
+
+    Correct!
+</details>
+<details>
+    <summary>3. If the numerical input, n, is greater than 1, return the sum of the two calls of the function with inputs of n-1 and n-2.</summary>
+
+    If the numerical input, n, is greater than 1, return the sum of the two calls of the function with inputs of n-1 and n-2.
+</details>
 
 **Identifying the base case is a great habit to develop when working with recursion. Try to do this before starting to code the remaining algorithms.**
 
 ### 4. Write a function that calculates the value of 'a' to the power of 'b'
 
-- For example if a=2 and b=4, then power(2,4) would be calculating 2^4=2*2*2*2 so the result would be 16.
+- For example if `a=2` and `b=4`, then `power(2,4)` would be calculating `2^4=2*2*2*2` so the result would be 16.
 - Here is [more information on exponents](https://www.mathsisfun.com/exponent.html).
 
 ### 5. Write a function that checks whether a string is a palindrome or not. The program should take in a string and return True if the string is a palindrome and False if not
