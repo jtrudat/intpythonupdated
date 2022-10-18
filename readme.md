@@ -1,4 +1,4 @@
-# SD10 Principles of Programming with Python
+# SD10 Principles of Programming with Python Syllabus
 
 ## Glossary of Terms
 
