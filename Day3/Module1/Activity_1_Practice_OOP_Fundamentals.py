@@ -9,7 +9,7 @@ class Car:
     def talk(self, driver):
         print(f'Hello, {driver}, I am {self.name}.')
 
-myCar      = Car('Kitt',   180)
+myCar      = Car('Kitty',   180)
 myOtherCar = Car('Speedy',  55)
 
 myCar.talk('Michael')
